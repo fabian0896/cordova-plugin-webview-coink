@@ -18,6 +18,9 @@ Example use
 
 ```ts
     declare let cordova: any;
+    @Component({
+    selector: "app-dashboard",
+    ...
     // First param - string - the url
     // Second param - boolean - disable backButton and forwardButton
     // Return callback format {code: number, message: string}
