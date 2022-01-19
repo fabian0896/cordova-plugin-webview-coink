@@ -1,0 +1,17 @@
+{
+  "name": "cordova.webview",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova.webview",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "hector",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-webview-coink" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Cordova Plugin Webview Coink</name>
+    <js-module name="CoinkWebview" src="www/CoinkWebview.js">
+        <clobbers target="cordova.plugins.CoinkWebview" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="CoinkWebview">
+                <param name="ios-package" value="CoinkWebview" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/WebviewViewController.swift" />
+        <source-file src="src/ios/CoinkWebview.swift"/>
+        <source-file src="src/ios/Extensions.swift"/>
+        <source-file src="src/ios/Assets.xcassets/back.imageset/back.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/back.imageset/back@2x.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/back.imageset/back@3x.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/close.imageset/close.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/close.imageset/close@2x.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/close.imageset/close@3x.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/forward.imageset/forward.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/forward.imageset/forward@2x.png" target="src/ios/Images.xcassets"/>
+        <source-file src="src/ios/Assets.xcassets/forward.imageset/forward@3x.png" target="src/ios/Images.xcassets"/>
+    </platform>
+</plugin>
