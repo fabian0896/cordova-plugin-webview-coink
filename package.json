@@ -1,9 +1,9 @@
 {
-  "name": "cordova.webview",
+  "name": "cordova-plugin-webview-coink",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cordova plugin webview for Coink",
   "cordova": {
-    "id": "cordova.webview",
+    "id": "cordova-plugin-webview-coink",
     "platforms": [
       "ios"
     ]
@@ -12,6 +12,6 @@
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "author": "hector",
+  "author": "Hector David Forero Ardila",
   "license": "ISC"
 }
