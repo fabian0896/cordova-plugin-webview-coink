@@ -1,8 +1,8 @@
 //
-//  WebViewCordova.swift
+//  CoinkWebview.swift
 //  WKWebView
 //
-//  Created by MACUSER on 18/01/22.
+//  Created by Hector D. Forero on 18/01/22.
 //
 
 import Foundation

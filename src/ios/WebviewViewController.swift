@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  WebviewViewController.swift
 //  WKWebView
 //
-//  Created by MACUSER on 17/01/22.
+//  Created by Hector D. Forero on 17/01/22.
 //
 
 import UIKit
