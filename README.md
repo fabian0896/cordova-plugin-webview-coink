@@ -12,7 +12,7 @@ Enjoy!
 
 Example use
 
-``` javascript
+```js
 declare let cordova: any;
 // First param - string - the url
 // Second param - boolean - disable backButton and forwardButton
