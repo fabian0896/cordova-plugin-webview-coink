@@ -12,12 +12,12 @@ Enjoy!
 
 Example use
 
-```js
-declare let cordova: any;
-// First param - string - the url
-// Second param - boolean - disable backButton and forwardButton
-// Return callback format {code: number, message: string}
-cordova.plugins.CoinkWebview.openWebview(this.url, false, (success) => console.log(JSON.parse(success)), (error) => { console.log(JSON.parse(error))});
+```ts
+    declare let cordova: any;
+    // First param - string - the url
+    // Second param - boolean - disable backButton and forwardButton
+    // Return callback format {code: number, message: string}
+    cordova.plugins.CoinkWebview.openWebview(this.url, false, (success) => console.log(JSON.parse(success)), (error) => { console.log(JSON.parse(error))});
 ```
 
 Callback codes
