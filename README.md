@@ -5,7 +5,7 @@ Cordova plugin webview for Coink
 ## Install
 
 Run in terminal
-Note: type five attempts ssh password thens installation works :/
+- Note: type five attempts ssh password then installation works :/
 
 ```bash
 cordova plugin add git+ssh://git@gitlab.bancoink.biz:front-end/cordova-plugin-webview-coink.git --nofetch
