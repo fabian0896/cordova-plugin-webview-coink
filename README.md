@@ -1,6 +1,6 @@
 # Cordova Plugin Webview Coink
 
-Cordova plugin webview para Coink
+Cordova plugin webview for Coink
 
 ## Install
 
