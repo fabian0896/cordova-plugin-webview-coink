@@ -13,12 +13,5 @@
     "cordova-ios"
   ],
   "author": "Hector David Forero Ardila",
-  "license": "ISC",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.bancoink.biz:front-end/cordova-plugin-webview-coink.git"
-  }
+  "license": "ISC"
 }
